@@ -1,5 +1,5 @@
-import { IconButton } from "@material-ui/core";
-import { Search } from "@material-ui/icons";
+import { Badge } from "@material-ui/core";
+import { Search, ShoppingCartOutlined } from "@material-ui/icons";
 import React from "react";
 import "./Navbar.css";
 
@@ -12,7 +12,7 @@ const Navbar = () => {
           <div className="search-container">
             <div className="input"></div>
 
-            <Search />
+            <Search  style={{color:"gray",fontSize:"15px"}}/>
           </div>
         </div>
         <div className="Center">
@@ -24,11 +24,9 @@ const Navbar = () => {
           <div className=" menu-item">Register</div>
           <div className=" menu-item">Login</div>
           <div className=" menu-item">
-            <IconButton ariel-label="cart">
-              <StyledBadge badgeContent={0} color="pimary">
-              <ShoppingCartIcon />
-              </StyledBadge>
-            </IconButton>
+            <Badge badgeContent={4} color="primary">
+              <ShoppingCartOutlined color="action" />
+            </Badge>
           </div>
         </div>
       </div>
