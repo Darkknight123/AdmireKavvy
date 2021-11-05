@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className=" menu-item">Register</div>
           <div className=" menu-item">Login</div>
           <div className=" menu-item">
-            <Badge badgeContent={4} color="primary">
+            <Badge badgeContent={1} color="primary">
               <ShoppingCartOutlined color="action" />
             </Badge>
           </div>

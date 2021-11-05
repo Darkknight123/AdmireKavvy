@@ -1,0 +1,44 @@
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: oblique;
+    padding: 5px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    height: auto;
+    margin: 5px;
+}
+.categories{
+    position: relative;
+}
+img{
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+}
+.info{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: bold;
+}
+button{
+    position: absolute;
+}

@@ -1,19 +1,17 @@
-import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons'
 import React from 'react'
 import './Slider.css'
+import Background from '../images/pexels-felipe.jpg'
+
 
 function Slider() {
     return (
-        <div className='slider-container'>
-            <div className='arrow' direction="left">
-                <div className='arrow-left'>
-                    <ArrowLeftOutlined/>
-                </div>
-            </div>
-            <div className='arrow' direction="right">
-                <div className='arrow-right'>
-                    <ArrowRightOutlined/>
-                </div>
+        <div className="lander">
+            <img src="https://images.pexels.com/photos/6431177/pexels-photo-6431177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="image">
+            </img>
+            <div className="info-container">
+                <h1 className='Title'>WELCOME</h1>
+                <p className='description'>WELCOME TO OUR STORE WHERE YOU CAN GET THE MOST RELIABLE, AFFORDABLE AND QUALITY PRODUCTS  </p>
+                <button>view products</button>
             </div>
             
         </div>
