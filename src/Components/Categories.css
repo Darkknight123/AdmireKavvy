@@ -35,10 +35,9 @@ h2{
     display: flex;
     justify-content: center;
     align-items: center;
-    color: antiquewhite;
-    font-size: larger;
+    top: 0;
+    bottom: 0;
+    color: white;
+    font-size: x-large;
     font-weight: bold;
-}
-button{
-    position: absolute;
 }
