@@ -1,0 +1,48 @@
+.cartcontainer{
+
+}
+.wrappercart{
+    padding: 20px;
+    
+}
+.wh1{
+    font-weight: 300;
+    text-align: center;
+}
+.Top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.topbutton{
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.topbutton1{
+    padding: 10px;
+    font-weight: 100;
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: black;
+}
+.toptexts{}
+.toptext{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0px 10px;
+}
+.Bottom{
+    display: flex;
+    justify-content: space-between;
+
+}
+.infosumm{
+    flex: 3;
+
+
+}
+.summary{
+    flex: 1;
+}
