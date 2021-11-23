@@ -27,7 +27,9 @@
     color: whitesmoke;
     background-color: black;
 }
-.toptexts{}
+.toptexts{
+
+}
 .toptext{
     text-decoration: underline;
     cursor: pointer;
@@ -43,19 +45,27 @@
 
 
 }
-.summary{
-    flex: 1;
-}
+
 .productss{
+    display: flex;
+    justify-content: space-between;
 
 }
 .productdetails{
+    flex: 2;
+    display: flex;
 
 }
 .cartimg{
+    width: 200px;
 
 }
 .detailed{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
 
 }
 .productname{
@@ -66,4 +76,65 @@
 }
 .productsize{
     
+}
+.pricedetails{
+    flex: 1;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.amountcontainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.productamount{
+    font-size: 24px;
+    margin: 5px;
+
+}
+.Productprice{
+    font-size: 30px;
+    font-weight: 200;
+
+}
+hr{
+    background-color: #eee;
+
+}
+.summary{
+    flex: 1;
+    border: 0.5px solid lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50vh;
+}
+.summarytitle{
+    font-weight: 200;
+    color: black;
+}
+.summaryItem{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.itemtext{}
+.itempice{}
+.summarybutton{
+    margin-right: 100px;
+    width: 50%;
+    padding: 10px;
+    background-color: black;
+    color: azure;
+}
+.itemtotal{
+    font-weight: bold;
+}
+.totalprice{
+    font-weight: bold;
 }
