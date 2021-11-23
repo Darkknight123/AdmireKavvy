@@ -1,6 +1,4 @@
-.cartcontainer{
 
-}
 .wrappercart{
     padding: 20px;
     
@@ -27,9 +25,7 @@
     color: whitesmoke;
     background-color: black;
 }
-.toptexts{
 
-}
 .toptext{
     text-decoration: underline;
     cursor: pointer;
@@ -68,15 +64,7 @@
    
 
 }
-.productname{
 
-}
-.productid{
-
-}
-.productsize{
-    
-}
 .pricedetails{
     flex: 1;
     display: flex;
@@ -123,8 +111,7 @@ hr{
     justify-content: space-between;
    
 }
-.itemtext{}
-.itempice{}
+
 .summarybutton{
     margin-right: 100px;
     width: 50%;

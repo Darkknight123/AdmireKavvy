@@ -1,6 +1,6 @@
 .Footercontainer{
     display: flex;
-    background-color: #16161D;
+    background-color: white;
 
     
 }
@@ -13,18 +13,18 @@
 
 }
 .contactItem{
-    color: whitesmoke;
+    color: black;
 }
 
 .noo{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     list-style: none;
 
 }
 .rightFooter{
-    color: whitesmoke;
+    color:  black;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -33,19 +33,19 @@
 }
 h2{
     margin-top: 20px;
-    color: whitesmoke;
+    color:  black;
 
 }
 article{
     margin: 20px 0px;
-    color: whitesmoke;
+    color:  black;
 }
 .centerFooter{
     flex: 1;
-    color: wheat;
+    color:  black;
 }
 .socialContainer{
-    color: whitesmoke;
+    color:  black;
     display: flex;
 
 }
@@ -66,7 +66,7 @@ article{
     margin-bottom: 30px;
 }
 .useful{
-    color:whitesmoke;
+    color: black;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -74,6 +74,6 @@ article{
 .logoimg{
     margin-top: 20px;
     margin-left: 10px;
-    width: 50%;
-    height: 70%;
+    width: 30%;
+    height: 30%;
 }
