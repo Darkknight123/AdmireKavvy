@@ -26,7 +26,7 @@ function Footer() {
           </ul>
         </div>
         <div className="rightFooter">
-            <h2> About Us</h2>
+            <h2 className="abt"> About Us</h2>
             <article>
                 We an upcoming jewellery shop offering our esteemed customers
                 reliable, affordable and high quality products.Feel free to 

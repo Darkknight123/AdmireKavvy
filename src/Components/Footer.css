@@ -19,8 +19,7 @@
 .noo{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    list-style: none;
+    justify-content: space-between;
 
 }
 .rightFooter{
@@ -31,7 +30,7 @@
     padding: 20;
 
 }
-h2{
+.abt{
     margin-top: 20px;
     color:  black;
 
@@ -76,4 +75,29 @@ article{
     margin-left: 10px;
     width: 30%;
     height: 30%;
+}
+@media only screen and (max-width:380px){
+    .Footercontainer{
+        flex-direction: column;
+    }
+    .leftFooter{
+        display: flex;
+    }
+    .logoimg{
+margin-left: 50px;
+        width: 70%;
+    }
+    .noo{
+        margin-left:10 ;
+    }
+    .abt{
+        align-items: center;
+        margin-left: 70px;
+    }
+    article{
+        margin: 0px;
+    }.title{
+        margin-right: 70px;
+    }
+
 }

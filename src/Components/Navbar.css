@@ -36,9 +36,11 @@
      padding: 5px;
  }
  .input{
+
      border: none;
  }
- .logo{
+ .logoname{
+     
      font-weight: bold;
  }
  .menu-item{
@@ -46,3 +48,33 @@
      cursor: pointer;
      margin-left: 25px;
  }
+ @media only screen and (max-width:380px){
+     .navbar-container{
+        height: 50px;
+     }
+  .wrapper{
+      padding: 10px 0px;
+      width: fit-content;
+  }
+  .language{
+      display: none;
+  }
+  .input{
+      width: 50px;
+  }
+  .Center{
+      display: none;
+  }
+  .logoname{
+      font-size: 22px;
+  
+  }
+  .left{
+      justify-content:center ;
+      flex: 2;
+  }
+  .menu-item{
+      font-size: 12px;
+      margin-left: 25px;
+  }
+}

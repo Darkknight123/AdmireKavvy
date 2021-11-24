@@ -26,7 +26,7 @@
     font-size: 20px;
     letter-spacing: 3PX;
 }
-button{
+.landingbtn{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +36,28 @@ button{
     cursor: pointer;
     margin-left: 80px ;
 
+}
+@media only screen and (max-width:380px){
+    .lander{
+        margin-top: 10px;
+    }
+    .image{
+        display: none;
+    }
+    .Title{
+        justify-content: center;
+        font-size: 25px;
+    }
+    .description{
+        font-size: 12px;
+    }
+    .landingbtn{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+        align-items: center;
+        padding: 5px;
+    }
 }
 
 

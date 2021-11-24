@@ -99,7 +99,7 @@ hr{
     border: 0.5px solid lightgray;
     border-radius: 10px;
     padding: 20px;
-    height: 50vh;
+    height: 40vh;
 }
 .summarytitle{
     font-weight: 200;
@@ -113,8 +113,9 @@ hr{
 }
 
 .summarybutton{
+    align-items: center;
     margin-right: 100px;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     background-color: black;
     color: azure;
@@ -124,4 +125,27 @@ hr{
 }
 .totalprice{
     font-weight: bold;
+}
+@media only screen and (max-width:380px){
+    .wrappercart{
+        padding: 10px;
+    }
+    .productss{
+        flex-direction: column;
+    }
+    .toptext{
+        display: none;
+    }
+    .Bottom{
+        flex-direction: column;
+    }
+    .productamount{
+        margin:5px 15px ;
+    }
+    .Productprice{
+        margin-bottom:20px ;
+    }
+    .summarybutton{
+        width: 100%;
+    }
 }

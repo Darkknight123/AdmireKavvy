@@ -7,12 +7,12 @@ import rings from "../images/rings.jpg";
 function Categories() {
   return (
     <div className="container">
-      <h1>CATEGORIES</h1>
+      <h1 className="categorytle">CATEGORIES</h1>
       <div className="cards">
         <div className="categories">
-          <img src={bestfriends} alt="bf" />
+          <img src={bestfriends} alt="bf" className="ctgimg"/>
           <div className="info">
-              <h2>Couples/Bestfriend Jewelery</h2>
+              <h2 className="ctgtext">Couples/Bestfriend Jewelery</h2>
               <button className="categoriesbtn">Shop Now</button>
         
           </div>
@@ -20,9 +20,9 @@ function Categories() {
           
         </div>
         <div className="categories">
-          <img src={necklaces} alt="necklaces" />
+          <img src={necklaces} alt="necklaces" className="ctgimg"/>
           <div className="info">
-              <h2>Necklaces</h2>
+              <h2 className="ctgtext">Necklaces</h2>
               <button className="categoriesbtn"> Shop Now</button>
             
           </div>
@@ -30,9 +30,9 @@ function Categories() {
           
         </div>
         <div className="categories">
-          <img src={rings} alt="ring"/>
+          <img src={rings} alt="ring" className="ctgimg"/>
           <div className="info">
-              <h2>Rings And Bracelets</h2>
+              <h2 className="ctgtext">Rings And Bracelets</h2>
               <button className="categoriesbtn"> Shop Now</button>
           </div>
           

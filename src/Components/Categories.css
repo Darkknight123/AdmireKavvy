@@ -1,4 +1,4 @@
-h1 {
+.categorytle {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,7 +18,7 @@ h1 {
 .categories {
   position: relative;
 }
-img {
+.ctgimg{
   width: 95%;
   height: 100%;
   object-fit: cover;
@@ -34,7 +34,7 @@ img {
   top: 0;
   left: 0;
 }
-h2 {
+.ctgtext {
   top: 0;
   margin-bottom: 20px;
   bottom: 0;
@@ -49,4 +49,25 @@ h2 {
   background-color: white;
   color: grey;
   cursor: pointer;
+}
+@media only screen and (max-width:380px){
+  .categorytle{
+    font-size: 24px;
+    padding: 1px;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    padding: 0;
+  }
+  .ctgtext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ctgimg{
+    width: 100%;
+    height: 30vh;
+  }
 }

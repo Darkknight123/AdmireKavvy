@@ -8,16 +8,16 @@ const Navbar = () => {
     <div className="navbar-container">
       <div className="wrapper">
         <div className="left">
-          <div className="language">En</div>
+        <div className=" logo">
+            <h2 className="logoname">AdmireKavvy</h2>
+          </div>
+        </div>
+        <div className="Center">
+        <div className="language">En</div>
           <div className="search-container">
             <div className="input"></div>
 
             <Search  style={{color:"gray",fontSize:"15px"}}/>
-          </div>
-        </div>
-        <div className="Center">
-          <div className=" logo">
-            <h1>AdmireKavvy</h1>
           </div>
         </div>
         <div className="Right">
@@ -25,7 +25,7 @@ const Navbar = () => {
           <div className=" menu-item">Login</div>
           <div className=" menu-item">
             <Badge badgeContent={1} color="primary">
-              <LocalMallOutlined color="action" />
+              <LocalMallOutlined color="black" />
             </Badge>
           </div>
         </div>
