@@ -3,6 +3,7 @@ import "./Categories.css";
 import bestfriends from "../images/bestfriends.jpg";
 import necklaces from "../images/necklaces.jpg";
 import rings from "../images/rings.jpg";
+import {Link} from "@reach/router";
 
 function Categories() {
   return (

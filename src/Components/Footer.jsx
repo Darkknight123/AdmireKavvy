@@ -2,6 +2,7 @@ import { Facebook, Instagram, MusicNote, Phone, Twitter, WhatsApp } from '@mater
 import React from 'react'
 import "./Footer.css"
 import logo from "../images/bfcouples/logo.jpg"
+import {Link} from "@reach/router"
 
 function Footer() {
     return (
