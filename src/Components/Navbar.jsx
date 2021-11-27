@@ -2,6 +2,7 @@ import { Badge } from "@material-ui/core";
 import { LocalMallOutlined, Search} from "@material-ui/icons";
 import React from "react";
 import "./Navbar.css";
+import {Link} from "@reach/router"
 
 const Navbar = () => {
   return (
@@ -9,7 +10,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
         <div className=" logo">
-            <h2 className="logoname">AdmireKavvy</h2>
+            <Link to="<h2 className="logoname">AdmireKavvy</h2>
           </div>
         </div>
         <div className="Center">
@@ -25,7 +26,7 @@ const Navbar = () => {
           <div className=" menu-item">Login</div>
           <div className=" menu-item">
             <Badge badgeContent={1} color="primary">
-              <LocalMallOutlined color="black" />
+              <Link to="/cart"><LocalMallOutlined color="black" /></Link>
             </Badge>
           </div>
         </div>

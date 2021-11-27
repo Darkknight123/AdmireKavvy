@@ -11,7 +11,7 @@ function Slider() {
             <div className="info-container">
                 <h2 className='Title'>Hello there,</h2>
                 <p className='description'>WELCOME TO OUR STORE WHERE YOU CAN GET THE MOST RELIABLE, AFFORDABLE AND QUALITY PRODUCTS  </p>
-                <button className="landingbtn">view products</button>
+                <button className="landingbtn" onClick={()=>window.location.href="/products"}>view products</button>
             </div>
             
         </div>
