@@ -1,151 +1,138 @@
+.wrappercart {
+  padding: 20px;
+}
+.wh1 {
+  font-weight: 300;
+  text-align: center;
+}
+.Top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.topbutton {
+  padding: 10px;
+  font-weight: 100;
+  cursor: pointer;
+  background-color: transparent;
+}
+.topbutton1 {
+  padding: 10px;
+  font-weight: 100;
+  cursor: pointer;
+  color: whitesmoke;
+  background-color: black;
+}
 
-.wrappercart{
-    padding: 20px;
-    
+.toptext {
+  text-decoration: underline;
+  cursor: pointer;
+  margin: 0px 10px;
 }
-.wh1{
-    font-weight: 300;
-    text-align: center;
+.Bottom {
+  display: flex;
+  justify-content: space-between;
 }
-.Top{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+.infosumm {
+  flex: 3;
 }
-.topbutton{
+
+.productss {
+  display: flex;
+  justify-content: space-between;
+}
+.productdetails {
+  flex: 2;
+  display: flex;
+}
+.cartimg {
+  width: 200px;
+  cursor: pointer;
+}
+.detailed {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.pricedetails {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.amountcontainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.productamount {
+  font-size: 24px;
+  margin: 5px;
+}
+.Productprice {
+  font-size: 30px;
+  font-weight: 200;
+}
+hr {
+  background-color: #eee;
+}
+.summary {
+  flex: 1;
+  border: 0.5px solid lightgray;
+  border-radius: 10px;
+  padding: 20px;
+  height: 40vh;
+}
+.summarytitle {
+  font-weight: 200;
+  color: black;
+}
+.summaryItem {
+  margin: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summarybutton {
+  align-items: center;
+  margin-right: 100px;
+  cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: azure;
+}
+.itemtotal {
+  font-weight: bold;
+}
+.totalprice {
+  font-weight: bold;
+}
+@media only screen and (max-width: 380px) {
+  .wrappercart {
     padding: 10px;
-    font-weight: 100;
-    cursor: pointer;
-}
-.topbutton1{
-    padding: 10px;
-    font-weight: 100;
-    cursor: pointer;
-    color: whitesmoke;
-    background-color: black;
-}
-
-.toptext{
-    text-decoration: underline;
-    cursor: pointer;
-    margin: 0px 10px;
-}
-.Bottom{
-    display: flex;
-    justify-content: space-between;
-
-}
-.infosumm{
-    flex: 3;
-
-
-}
-
-.productss{
-    display: flex;
-    justify-content: space-between;
-
-}
-.productdetails{
-    flex: 2;
-    display: flex;
-
-}
-.cartimg{
-    width: 200px;
-
-}
-.detailed{
-    padding: 20px;
-    display: flex;
+  }
+  .productss {
     flex-direction: column;
-    justify-content: space-around;
-   
-
-}
-
-.pricedetails{
-    flex: 1;
-    display: flex;
-    flex-direction:column ;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.amountcontainer{
-    display: flex;
-    align-items: center;
+  }
+  .toptext {
+    display: none;
+  }
+  .Bottom {
+    flex-direction: column;
+  }
+  .productamount {
+    margin: 5px 15px;
+  }
+  .Productprice {  
     margin-bottom: 20px;
-
-}
-.productamount{
-    font-size: 24px;
-    margin: 5px;
-
-}
-.Productprice{
-    font-size: 30px;
-    font-weight: 200;
-
-}
-hr{
-    background-color: #eee;
-
-}
-.summary{
-    flex: 1;
-    border: 0.5px solid lightgray;
-    border-radius: 10px;
-    padding: 20px;
-    height: 40vh;
-}
-.summarytitle{
-    font-weight: 200;
-    color: black;
-}
-.summaryItem{
-    margin: 30px 0px;
-    display: flex;
-    justify-content: space-between;
-   
-}
-
-.summarybutton{
-    align-items: center;
-    margin-right: 100px;
+  }
+  .summarybutton {
     width: 100%;
-    padding: 10px;
-    background-color: black;
-    color: azure;
-}
-.itemtotal{
-    font-weight: bold;
-}
-.totalprice{
-    font-weight: bold;
-}
-@media only screen and (max-width:380px){
-    .wrappercart{
-        padding: 10px;
-    }
-    .productss{
-        flex-direction: column;
-    }
-    .toptext{
-        display: none;
-    }
-    .Bottom{
-        flex-direction: column;
-    }
-    .productamount{
-        margin:5px 15px ;
-    }
-    .Productprice{
-        margin-bottom:20px ;
-    }
-    .summarybutton{
-        width: 100%;
-    }
+  }
 }
