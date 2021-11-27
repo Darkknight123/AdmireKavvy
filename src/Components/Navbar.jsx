@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="wrapper">
         <div className="left">
         <div className=" logo">
-            <Link to="<h2 className="logoname">AdmireKavvy</h2>
+            <Link to="/"><h2 className="logoname">AdmireKavvy</h2></Link>
           </div>
         </div>
         <div className="Center">

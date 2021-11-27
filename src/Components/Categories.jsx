@@ -13,7 +13,7 @@ function Categories() {
           <img src={bestfriends} alt="bf" className="ctgimg"/>
           <div className="info">
               <h2 className="ctgtext">Couples/Bestfriend Jewelery</h2>
-              <button className="categoriesbtn">Shop Now</button>
+              <Link to="/products"> <button className="categoriesbtn"> Shop Now</button></Link>
         
           </div>
           
@@ -23,7 +23,7 @@ function Categories() {
           <img src={necklaces} alt="necklaces" className="ctgimg"/>
           <div className="info">
               <h2 className="ctgtext">Necklaces</h2>
-              <button className="categoriesbtn"> Shop Now</button>
+             <Link to="/products"> <button className="categoriesbtn"> Shop Now</button></Link>
             
           </div>
           
@@ -33,7 +33,7 @@ function Categories() {
           <img src={rings} alt="ring" className="ctgimg"/>
           <div className="info">
               <h2 className="ctgtext">Rings And Bracelets</h2>
-              <button className="categoriesbtn"> Shop Now</button>
+              <Link to="/products"> <button className="categoriesbtn"> Shop Now</button></Link>
           </div>
           
           

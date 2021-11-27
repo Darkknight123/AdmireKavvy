@@ -18,8 +18,8 @@ function Footer() {
         <div className="centerFooter">
           <h2 className="title">Useful Links</h2>
           <ul className="useful">
-            <ul>Home</ul>
-            <ul>Cart</ul>
+            <Link to="/"><ul>Home</ul></Link>
+            <Link to="cart"><ul>Cart</ul></Link>
             <ul>My Account</ul>
             <ul>Wishlist</ul>
             <ul>Terms and Conditions</ul>
@@ -46,7 +46,7 @@ function Footer() {
               <WhatsApp style={{color:"#075e54"}}/>
             </div>
             <div className="socialIcons">
-              <MusicNote style={{color:"#ff0050"}}/>
+              <MusicNote style={{color:"#ff0050"}} />
             </div>
           </div>
         </div>

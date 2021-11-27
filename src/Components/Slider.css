@@ -37,7 +37,8 @@
     margin-left: 80px ;
 
 }
-@media only screen and (max-width:380px){
+
+@media only screen and (max-width:600px){
     .lander{
         margin-top: 10px;
     }

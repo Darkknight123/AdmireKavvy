@@ -50,7 +50,7 @@
   color: grey;
   cursor: pointer;
 }
-@media only screen and (max-width:380px){
+@media only screen and (max-width:600px){
   .categorytle{
     font-size: 24px;
     padding: 1px;
