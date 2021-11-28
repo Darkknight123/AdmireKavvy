@@ -1,6 +1,6 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
-import {bfrainbow} from "../images/bfcouples/bfrainbow.jpg"
+
 
 
 const Product = ({item}) => {
