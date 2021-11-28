@@ -1,12 +1,13 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
-import {Link} from "@reach/router"
+import {bfrainbow} from "../images/bfcouples/bfrainbow.jpg"
+
 
 const Product = ({item}) => {
     return (
         <div className="container">
             <div className="shape"/>
-            <Link to="/view"><img src={item.img} className="imagecontainer"/></Link>
+            <img src={item.img} className="imagecontainer" alt=""/>
             <div className="infocontainer">
                 <div classname="icons">
                     <ShoppingCartOutlined/>

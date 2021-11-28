@@ -17,12 +17,12 @@ export const PopularProducts=[
     },
     {
         id:5,
-        img:"https://drive.google.com/file/d/1LyWNnQkeVO5QhwQiWUIMK_iiN6mE6Pkx/view?usp=sharing",
+        img:"src/images/bfcouples/black.jpg",
 
     },
     {
         id:6,
-        img:"https://drive.google.com/file/d/14IHgOjfXi80gpYPlVshl17Ic5SjugQlv/view?usp=sharing",
+        img:"src/images/bfcouples/bfrainbow.jpg",
     },
 
 ]

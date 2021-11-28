@@ -40,7 +40,9 @@
      border: none;
  }
  .logoname{
-     
+     color: black;
+     text-decoration: none;
+     list-style:none ;
      font-weight: bold;
  }
  .menu-item{

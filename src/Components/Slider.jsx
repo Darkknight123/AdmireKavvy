@@ -1,12 +1,11 @@
 import React from 'react'
 import './Slider.css'
-import Background from '../images/pexels-felipe.jpg'
 
 
 function Slider() {
     return (
         <div className="lander">
-            <img src="https://images.pexels.com/photos/6431177/pexels-photo-6431177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="image">
+            <img src="https://images.pexels.com/photos/6431177/pexels-photo-6431177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" className="image" alt="">
             </img>
             <div className="info-container">
                 <h2 className='Title'>Hello there,</h2>

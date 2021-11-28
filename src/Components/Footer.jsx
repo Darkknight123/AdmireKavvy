@@ -19,8 +19,8 @@ function Footer() {
         <div className="centerFooter">
           <h2 className="title">Useful Links</h2>
           <ul className="useful">
-            <Link to="/"><ul>Home</ul></Link>
-            <Link to="cart"><ul>Cart</ul></Link>
+            <Link to="/" color="black"><ul>Home</ul></Link>
+            <Link to="cart" color="black"><ul>Cart</ul></Link>
             <ul>My Account</ul>
             <ul>Wishlist</ul>
             <ul>Terms and Conditions</ul>
