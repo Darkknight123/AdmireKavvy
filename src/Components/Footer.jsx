@@ -1,14 +1,14 @@
 import { Facebook, Instagram, MusicNote, Phone, Twitter, WhatsApp } from '@material-ui/icons'
 import React from 'react'
 import "./Footer.css"
-import logo from "../images/bfcouples/logo.jpg"
+// import logo from "../images/bfcouples/logo.jpg"
 import {Link} from "@reach/router"
 
 function Footer() {
     return (
       <div className="Footercontainer">
         <div className="leftFooter">
-        <img src={logo} alt="logo" className="logoimg"/>
+        {/* <img src={logo} alt="logo" className="logoimg"/> */}
         <div className="noo">
         <h2 className="contactus">Contact Us</h2>
         <span className="Phone"><Phone/>  +254748978585</span>

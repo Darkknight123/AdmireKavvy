@@ -6,8 +6,8 @@ import "./Products.css"
 function Products() {
     return (
         <div className="productContainer">
-            {PopularProducts.map(item =>(
-                <Product item = {item} key={item.id} />
+            {PopularProducts.map((item,i) =>(
+                <Product item = {item} key={i} />
             ))}
         </div>
     )

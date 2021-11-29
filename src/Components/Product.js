@@ -1,13 +1,15 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@material-ui/icons'
 import React from 'react'
+import './Product.css'
 
 
 
-const Product = ({item}) => {
+const Product = (props) => {
     return (
-        <div className="container">
+        <div className="prodcontainer">
             <div className="shape"/>
-            <img src={item.img} className="imagecontainer" alt=""/>
+            
+            <img src={`bfcouples/${props.item.img}`} className="imagecontainer" alt="avator"/>
             <div className="infocontainer">
                 <div classname="icons">
                     <ShoppingCartOutlined/>
@@ -19,6 +21,7 @@ const Product = ({item}) => {
                     <FavoriteBorderOutlined/>
                 </div>
             </div>
+            
         </div>
     )
 }

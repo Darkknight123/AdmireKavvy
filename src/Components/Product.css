@@ -1,4 +1,4 @@
-.container{
+.prodcontainer{
   flex: 1;
   margin: 5px;
   min-width: 280px;
@@ -6,19 +6,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
+ 
+ 
 }
 
 .shape{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     position: absolute;
+    background-color: aquamarine;
 
 }
 .imagecontainer{
     height: 75%;
     z-index: 2;
+     position: relative;
+     border: none;
 
 }
 .infocontainer{
