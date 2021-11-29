@@ -22,7 +22,7 @@ function Cart() {
                     <div className="infosumm">
                         <div className="productss">
                             <div className="productdetails">
-                                <img src="https://www.pexels.com/photo/adult-affection-beads-blur-371285/" className="cartimg" alt="cartimage"/>
+                                <img src="/bfcouples/forever.jpg" className="cartimg" alt="cartimage"/>
                                 <div className="detailed">
                                     <span className="productname"><b>Product:</b> friendship bracelets</span>
                                     <span className="productid"><b>ID:</b> e3648f9362</span>
@@ -41,7 +41,7 @@ function Cart() {
                         <hr/>
                         <div className="productss">
                             <div className="productdetails">
-                                <img src="https://www.pexels.com/photo/adult-affection-beads-blur-371285/" className="cartimg" alt="cartimage"/>
+                                <img src="/bfcouples/forever.jpg" className="cartimg" alt="cartimage"/>
                                 <div className="detailed">
                                     <span className="productname"><b>Product:</b> friendship bracelets</span>
                                     <span className="productid"><b>ID:</b> e3648f9362</span>
